@@ -1186,7 +1186,7 @@ def generate_final_report(student_name, registration_number, input_smiles, mol, 
 # SIDEBAR
 # ============================================================
 
-st.sidebar.title("⛏️ ChemCraft Lab")
+st.sidebar.title("💻 ChemSportx Lab")
 
 page = st.sidebar.radio(
 
@@ -1257,7 +1257,7 @@ if page == "🏠 Home":
 
     st.divider()
 
-    st.markdown("## Welcome, Crafter!")
+    st.markdown("## Welcome Enthusiast !")
 
     st.write("""
     This interactive virtual laboratory helps students understand
@@ -2033,6 +2033,6 @@ Enter one molecule per line in the format:
 st.divider()
 
 st.caption(
-    "⛏️ ChemCraft Cheminformatics Lab | "
+    "💻 ChemSportx Cheminformatics Lab | "
     "Developed using Python, Streamlit and RDKit"
 )
